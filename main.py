@@ -2,7 +2,6 @@ import tkinter as tk
 from PIL import Image, ImageDraw, ImageOps
 import numpy as np
 from tensorflow.keras.models import load_model
-import pandas as pd
 import os
 
 # Load the trained model
