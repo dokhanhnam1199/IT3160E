@@ -58,28 +58,13 @@ The following Kaggle notebooks were used for experiments and comparisons:
 - The pre-trained CNN model used for digit recognition.
 
 ## How to Run
-Since tensorflow doesn't support python 3.13, we need to create a virtual enviroment to install tensorflow. If you are using python 3.12 or older, you don't need to create a virtual enviroment.
-1. Create a virtual environment with Python 3.11:
-   ```bash
-   python3.11 -m venv .venv
-   ```
-
-2. Activate the virtual environment:
-   - On Windows:
-     ```bash
-     .venv\\Scripts\\activate
-     ```
-   - On Linux/Mac:
-     ```bash
-     source .venv/bin/activate
-     ```
-
-3. Install the required dependencies:
+Since tensorflow doesn't support python 3.13, you need to use python 3.12 or older to install requirement.
+1. Install the required dependencies:
    ```bash
    pip install -r requirements.txt
    ```
 
-4. Run the main application:
+2. Run the main application:
    ```bash
    python main.py
    ```
