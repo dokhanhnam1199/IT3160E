@@ -3,6 +3,8 @@
 This project explores and compares two machine learning approaches—K Nearest Neighbors (KNN) and Convolutional Neural Networks (CNN)—for classifying handwritten digits from the MNIST dataset and human-generated input. It includes experiments on distance metrics, filter configurations, dropout rates, and model size. A custom GUI tool is also provided for users to draw digits and evaluate model performance on real-time human input. The source code for GUI tool is in this repository, the experiments is conducted through Kaggle.
 
 
+## Contributions
+
 ## Kaggle Notebooks
 
 The following Kaggle notebooks were used for experiments and comparisons:
